@@ -1,5 +1,9 @@
-function insere(numero){
-	document.getElementById('resultado').innerHTML = numero;
+function insere(numero) {
+
+var valor = document.getElementById('resultado').innerHTML;
+
+document.getElementById('resultado').innerHTML = valor + numero;
+
 }
 
 function limpar(){
